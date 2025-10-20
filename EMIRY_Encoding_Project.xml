@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE corpus SYSTEM "EMIRY_Encoding_Project.dtd">
+
+<corpus>
+    <header>
+        <fileDesc>
+            <titleStmt>
+                <title>Encoding project for the TEI-XML course : three poems by Anjela Duval</title>
+                <author>Anjela Duval</author>
+            </titleStmt>
+            <respStmt>
+                <persName>Charline Emiry</persName> 
+                <course>Modelling humanities data with TEI-XML: Scholarly editing and manuscript cataloguing in the digital age</course>
+            </respStmt>
+            <publicationStmt>
+                <publisher>Rennes 2 University</publisher>
+                <pubPlace>Rennes, France</pubPlace>
+                <availabity>CC BY-NC-ND 3.0 FR</availabity>
+            </publicationStmt>
+            <sourceDesc>
+                    <author>Anjela Duval</author>
+                    <title>Cahier manuscrit n°12</title>
+                    <date when="1963" calendar="gregorian"/>
+            </sourceDesc>
+        </fileDesc>
+    </header>    
+    <poem>
+        <poemHeader>
+            <title>Erch Mezheven</title>
+            <author>Anjela Duval</author>
+            <date when="1963" calendar="gregorian"/>
+            <source>Cahier manuscrit n°12</source>
+            <url>https://bibnum.univ-rennes2.fr/items/show/513</url>
+        </poemHeader>
+        <text>
+            <body>
+                <head></head>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="couplet">
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="couplet">
+                    <l></l>
+                    <l></l>
+                </lg>
+
+            </body>
+        </text>
+    </poem>
+    
+    <poem>
+        <poemHeader>
+            <title>Bisigou Haleg</title>
+            <author>Anjela Duval</author>
+            <date when="1963" calendar="gregorian"/>
+            <source>Cahier manuscrit n°12</source>
+            <url>https://bibnum.univ-rennes2.fr/items/show/513</url>
+        </poemHeader>
+        <text>
+            <body>
+                <head></head>
+                <lg type = "paragraph">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+            </body>
+        </text>
+    </poem>
+    
+    <poem>
+        <poemHeader>
+            <title>An Alc'houez Aour</title>
+            <author>Anjela Duval</author>
+            <date when="1963" calendar="gregorian"/>
+            <source>Cahier manuscrit n°12</source>
+            <url>https://bibnum.univ-rennes2.fr/items/show/513</url>
+        </poemHeader>
+        <text>
+            <body>
+                <head></head>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+                <lg type="quatrain">
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                    <l></l>
+                </lg>
+            </body>
+        </text>
+    </poem>
+</corpus>

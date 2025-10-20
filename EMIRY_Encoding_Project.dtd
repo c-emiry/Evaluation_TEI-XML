@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT corpus (header, poem+)>
+
+<!ELEMENT header (fileDesc)>
+<!ELEMENT fileDesc (titleStmt, respStmt, publicationStmt, sourceDesc)>
+<!ELEMENT titleStmt (title, author)>
+<!ELEMENT respStmt (persName, course)>
+<!ELEMENT persName (#PCDATA)>
+<!ELEMENT course (#PCDATA)>
+<!ELEMENT publicationStmt (publisher, pubPlace, availabity)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT pubPlace (#PCDATA)>
+<!ELEMENT availabity (#PCDATA)>
+<!ELEMENT sourceDesc (author, title, date)>
+<!ELEMENT poem (poemHeader, text)>
+<!ELEMENT poemHeader (title, author?, date, source, url?)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT date EMPTY>
+<!ATTLIST date when CDATA #REQUIRED>
+<!ATTLIST date calendar (julian | gregorian | chinese | other) #REQUIRED>
+<!ELEMENT source (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+<!ELEMENT text (body)>
+<!ELEMENT body (head, lg+) >
+<!ELEMENT head (#PCDATA)>
+<!ELEMENT lg (l+)>
+<!ATTLIST lg type CDATA #IMPLIED>
+<!ELEMENT l (#PCDATA)>
+
